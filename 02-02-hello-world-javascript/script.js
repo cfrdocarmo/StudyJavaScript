@@ -1,3 +1,3 @@
-var name = 'World'
-name = 'Mergulhador'
-console.log('Hello, ' + name)
+var batata = 'World'
+batata = 'Mergulhador'
+console.log('Hello, ' + batata)
