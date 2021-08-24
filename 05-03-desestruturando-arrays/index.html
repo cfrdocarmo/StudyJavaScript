@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desestruturando Arrays</title>
+</head>
+<body>
+  <script>
+    const fruits = ['banana', 'morango', 'manga']
+
+    const [firstItem, secondItem] = fruits
+
+    const person = { name: 'Joaquim', age: 32}
+    const person2 = { name: 'Jonas', age: 33}
+    const person3 = { name: 'João', age: 34}
+
+    const friends = [person, person2, person3]
+
+    const chart = [[1,2], [3,4], [5,6]]
+
+    const [, [, y]] = chart
+
+</script>
+</body>
+</html>
